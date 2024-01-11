@@ -1,8 +1,7 @@
 import "./App.css";
 import Card from "./components/Card";
 import Carousel from "./components/Carousel";
-import Test from "./components/Test";
-import Tr from "./components/Tr";
+import AltCarousel from "./components/AltCarousel";
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
       <h2 className="mb-[63px] martel-sans-ud text-[#887C68] font-semibold text-[28px] mt-[183px]">
         OUR SERVICES
       </h2>
-      <Tr />
+      <AltCarousel />
     </div>
   );
 }

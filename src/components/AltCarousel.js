@@ -20,7 +20,7 @@ const images = [
   { src: emiratesLiving, text: "EMIRATES LIVING" },
 ];
 
-const Tr = () => {
+const AltCarousel = () => {
   const sliderRef = useRef(null);
 
   const settings = {
@@ -29,26 +29,6 @@ const Tr = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
   };
 
   const handlePrev = () => {
@@ -96,4 +76,4 @@ const Tr = () => {
   );
 };
 
-export default Tr;
+export default AltCarousel;
