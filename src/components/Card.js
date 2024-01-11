@@ -9,7 +9,7 @@ export default function () {
   return (
     <div className="flex justify-center mt-5">
       <div className=" flex flex-wrap justify-center mt-5">
-        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px] my-10 md:mx-5 md:my-5 rounded shadow-lg">
+        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px] my-10 md:mx-5 md:my-5 rounded shadow-2xl">
           <img
             className="h-[249.68px] md:h-[292px] object-cover  w-full"
             src={arabianRanches}
@@ -32,7 +32,7 @@ export default function () {
           </div>
         </div>
 
-        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px]  my-10 md:mx-5   md:my-5 rounded shadow-lg">
+        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px]  my-10 md:mx-5   md:my-5 rounded shadow-2xl">
           <img
             className="h-[249.68px] md:h-[292px] object-cover  w-full"
             src={arabianRanches2}
@@ -55,7 +55,7 @@ export default function () {
           </div>
         </div>
 
-        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px]    my-10 md:mx-5   md:my-5 rounded shadow-lg">
+        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px]    my-10 md:mx-5   md:my-5 rounded shadow-2xl">
           <img
             className="h-[249.68px] md:h-[292px] object-cover  w-full"
             src={downtownDubai}
@@ -77,7 +77,7 @@ export default function () {
           </div>
         </div>
 
-        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px]  my-10 md:mx-5   md:my-5 rounded shadow-lg">
+        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px]  my-10 md:mx-5   md:my-5 rounded shadow-2xl">
           <img
             className="h-[249.68px] md:h-[292px] object-cover  w-full"
             src={dubaiHillsEstate}
@@ -100,7 +100,7 @@ export default function () {
           </div>
         </div>
 
-        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px]  my-10 md:mx-5   md:my-5 rounded shadow-lg">
+        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px]  my-10 md:mx-5   md:my-5 rounded shadow-2xl">
           <img
             className="h-[249.68px] md:h-[292px] object-cover  w-full"
             src={dubaiMarina}
@@ -123,7 +123,7 @@ export default function () {
           </div>
         </div>
 
-        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px]  my-10 md:mx-5   md:my-5 rounded shadow-lg">
+        <div className=" w-[320px] h-[472px] md:w-[391px] md:h-[552px]  my-10 md:mx-5   md:my-5 rounded shadow-2xl">
           <img
             className="h-[249.68px] md:h-[292px] object-cover  w-full"
             src={emiratesLiving}
